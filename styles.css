@@ -1,10 +1,20 @@
 @charset "utf-8";
 /* CSS Document */
 
+/*Basic overall elements for the entire website*/
+html {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'VT323', monospace;
+}
+
 img {
 	position: absolute;
 }
 
+/* Id tags and classes specific to certain pages */
 #start {
 	background-image: radial-gradient(circle, #ffffff, #575454, #000000);
 }
@@ -17,21 +27,30 @@ img {
 	position: absolute;
 }
 
-#desert {
-	background: url("images/theDesert.png");
-	max-width: 100%;
-	max-height: 97vh;
-	width: auto;
-	height: auto;
-}
-
-desert body, html {
+#desert body, html {
 	height: 100%;
 }
 
+#desert {
+	background-color: white;
+	background: url("images/theDesert.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 100vh;
+}
+
+/* character and object specific classes and ids */
 .centro1 {
-	position: absolute;
-	height: 200px;
-	width: 300px;
-	left: 800px;
+	height: 100px;
+	width: 200px;
+	left: 1000px;
+	top: 270px;
+}
+
+.centroAlert {
+	padding-top: 200px;
+	padding-right: 170px;
+	display: flex;
+	justify-content: right;
+	font-size: 40px;
 }
