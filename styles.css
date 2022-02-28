@@ -25,7 +25,7 @@ img {
 
 .textboxText {
 	display: flex;
-	padding-top: 330px;
+	padding-top: 310px;
 	padding-left: 400px;
 	justify-content: right;
 	position: absolute;
@@ -33,7 +33,7 @@ img {
 	font-size: 22px;
 	font-weight: bolder;
 	text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
-	max-width: 300px;
+	max-width: 350px;
 }
 
 /*PAGE-SPECIFIC*/
@@ -85,4 +85,5 @@ img {
 	font-size: 40px;
 	color: maroon;
 	font-weight: bold;
+	text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 }
