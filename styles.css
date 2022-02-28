@@ -14,6 +14,25 @@ img {
 	position: absolute;
 }
 
+.textbox {
+	display: flex;
+	justify-content: right;
+	position: absolute;
+	padding-top: 200px;
+	padding-left: 250px;
+}
+
+.textboxText {
+	display: flex;
+	padding-top: 330px;
+	padding-left: 370px;
+	justify-content: right;
+	position: absolute;
+	color: lightsalmon;
+	font-size: 22px;
+	font-weight: bolder;
+}
+
 /* Id tags and classes specific to certain pages */
 #start {
 	background-image: radial-gradient(circle, #ffffff, #575454, #000000);
@@ -47,10 +66,18 @@ img {
 	top: 270px;
 }
 
+.centro1Head {
+	height: 400px;
+	width: 340px;
+	top: 210px;
+}
+
 .centroAlert {
 	padding-top: 200px;
 	padding-right: 170px;
 	display: flex;
 	justify-content: right;
 	font-size: 40px;
+	color: maroon;
+	font-weight: bold;
 }
