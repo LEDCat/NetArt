@@ -1,3 +1,37 @@
 @charset "utf-8";
 /* CSS Document */
 
+img {
+	position: absolute;
+}
+
+#start {
+	background-image: radial-gradient(circle, #ffffff, #575454, #000000);
+}
+
+#start img {
+	height: 50px;
+	width: 50px;
+    top: 50%;
+    left: 50%;
+	position: absolute;
+}
+
+#desert {
+	background: url("images/theDesert.png");
+	max-width: 100%;
+	max-height: 97vh;
+	width: auto;
+	height: auto;
+}
+
+desert body, html {
+	height: 100%;
+}
+
+.centro1 {
+	position: absolute;
+	height: 200px;
+	width: 300px;
+	left: 800px;
+}
