@@ -1,6 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
+/*OVERALL WEBSITE*/
 /*Basic overall elements for the entire website*/
 html {
 	box-sizing: border-box;
@@ -19,20 +20,23 @@ img {
 	justify-content: right;
 	position: absolute;
 	padding-top: 200px;
-	padding-left: 250px;
+	padding-left: 280px;
 }
 
 .textboxText {
 	display: flex;
 	padding-top: 330px;
-	padding-left: 370px;
+	padding-left: 400px;
 	justify-content: right;
 	position: absolute;
-	color: lightsalmon;
+	color: black;
 	font-size: 22px;
 	font-weight: bolder;
+	text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+	max-width: 300px;
 }
 
+/*PAGE-SPECIFIC*/
 /* Id tags and classes specific to certain pages */
 #start {
 	background-image: radial-gradient(circle, #ffffff, #575454, #000000);
@@ -58,6 +62,7 @@ img {
 	height: 100vh;
 }
 
+/*CHRACTERS, INTERACTIONS, AND EVENTS*/
 /* character and object specific classes and ids */
 .centro1 {
 	height: 100px;
